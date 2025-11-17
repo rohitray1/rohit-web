@@ -1,15 +1,71 @@
-.rohit{
-    background-color: rebeccapurple;
-    width: 1500px;
-    height: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-h1{
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9800;
+}
+
+.center-box {
+    display: flex;
+    width: 400px;
+    background: white;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
 }
-a{
-    padding-right: 50px;
-    padding-left: 50px;
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 40px 0 0 40px;
 }
-.ray{
-    
+
+.search-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 40px 40px 0;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    background: #45a049;
 }
