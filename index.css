@@ -1,7 +1,14 @@
 .rohit{
-    height: 50px;
+    background-color: rebeccapurple;
     width: 1500px;
-    background-color: brown;
+    height: 100px;
+}
+h1{
     text-align: center;
-    margin: 50px;
+}
+a{
+    padding-right: 50px;
+}
+.ray{
+    
 }
